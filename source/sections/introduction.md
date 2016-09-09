@@ -6,7 +6,7 @@ TowerView Health provides secure and compliant cloud-based software. This hosted
 
 ## Software System
 
-Patients and caregivers utilize the TowerView Health dashboard to view medication adherence information reported by their electronic pillbox. TowerView Health makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of patient through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
+For each patient enrolled in TowerView Health's solution, the patient him or herself, as well as any caregivers and health professionals approved by the patient, can utilize the TowerView Health dashboard to view medication adherence information reported by their electronic pillbox. TowerView Health makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of patient through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
 
 ## TowerView Health Organizational Concepts
 
@@ -16,9 +16,9 @@ Within the TowerView Health Platform on AWS, all data transmission is encrypted 
 
 The result of segmentation strategies employed by TowerView Health effectively create RFC 1918, or dedicated, private segmented and separated networks and IP spaces, for each healthplan customer.
 
-Additionally, IPtables is used on each each server for logical segmentation. IPtables is configured to restrict access to only justified ports and protocols. TowerView Health has implemented strict logical access controls so that only authorized personnel are given access to the internal management servers. The environment is configured so that data is transmitted from the load balancers to the application servers over an SSL encrypted session.
+Additionally, IPtables is used on each each server for logical segmentation. IPtables is configured to restrict access to only justified ports and protocols. TowerView Health has implemented strict logical access controls so that only authorized personnel (specify?) are given access to the internal management servers. The environment is configured so that data is transmitted from the load balancers to the application servers over an SSL encrypted session.
 
-The Nginx servers, machine server, Kibana servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal TowerView Health network and can only be accessed directly over an SSH connection through the production host. The access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business justified reason. Remote access to the internal servers is not accessible except through the load balancers and bastion host.
+The Nginx servers, machine server, Kibana servers are externally facing and accessible via the Internet. The database servers, where the ePHI resides, are located on the internal TowerView Health network and can only be accessed directly over an SSH connection through the production host. The access to the internal database is restricted to a limited number of personnel and strictly controlled to only those personnel with a business justified reason (does this need to be specified?). Remote access to the internal servers is not accessible except through the load balancers and bastion host.
 
 ## Version Control
 

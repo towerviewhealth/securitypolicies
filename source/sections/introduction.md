@@ -10,9 +10,9 @@ Patients and caregivers utilize the TowerView Health dashboard to view medicatio
 
 ## TowerView Health Organizational Concepts
 
-The physical infrastructure environment is hosted at [Amazon Web Services](https://aws.amazon.com/) (AWS). The network components and supporting network infrastructure are contained within AWS infrastructures and managed by Amazon. TowerView Health does not have physical access into the network components. The TowerView Health environment consists of Cisco firewalls, Node, twistd, and nginx web servers, MongoDB database servers, Logstash logging servers, and Linux Ubuntu monitoring servers.
+The physical infrastructure environment is hosted at [Amazon Web Services](https://aws.amazon.com/) (AWS). The network components and supporting network infrastructure are contained within AWS infrastructures and managed by Amazon. TowerView Health does not have physical access into the network components. The TowerView Health environment consists of Cisco firewalls, Node, twistd, and nginx web servers, MongoDB database servers, and Linux monitoring servers.
 
-Within the TowerView Health Platform on AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers. TowerView Health assumes that patient data *may* collected during enrollment process is PHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
+Within the TowerView Health Platform on AWS, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers. TowerView Health assumes that patient data *may be* collected during enrollment process is PHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.
 
 The result of segmentation strategies employed by TowerView Health effectively create RFC 1918, or dedicated, private segmented and separated networks and IP spaces, for each healthplan customer.
 

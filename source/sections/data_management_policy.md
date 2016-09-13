@@ -1,6 +1,6 @@
 # Data Management Policy
 
-TowerView Health has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjunction with TowerView Health Add-ons and for PaaS Customers utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data, do not apply to PaaS Customers that do not choose TowerView Health Backup Service. The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by TowerView Health.
+TowerView Health has procedures to create and maintain retrievable exact copies of electronic protected health information (ePHI) stored in conjunction with TowerView Health Add-ons and for PaaS Customers utilizing our Backup Service. This policy, and associated procedures for testing and restoring from backup data, do not apply to PaaS Customers that do not choose TowerView Health Backup Service (this part confuses me--are we creating an optional PHI backup service for customers who choose to participate?). The policy and procedures will assure that complete, accurate, retrievable, and tested backups are available for all systems used by TowerView Health.
   
 Data backup is an important part of the day-to-day operations of TowerView Health. To protect the confidentiality, integrity, and availability of ePHI, both for TowerView Health and TowerView Health Customers, completes backups are done daily to assure that data remains available when it needed and in case of disaster.
 

@@ -22,7 +22,7 @@ TowerView Health standardizes and automates configuration management through the
 8. All software and systems are tested using unit tests and end to end tests.
 9. All committed code is reviewed using pull requests (on Github) to assure software code quality and proactively detect potential security issues in development.
 10. TowerView Health utilizes development and staging environments that mirror production to assure proper function.
-11. TowerView Health also deploys environments locally using Vagrant to assure functionality before moving to staging or production.
+11. TowerView Health also deploys environments locally to assure functionality before moving to staging or production.
 12. TowerView Health schedules production deployments every four weeks.
 13. All formal change requests require unique ID and authentication.
 14. ClamAV is run on all production hosts for anti-virus protection. Hosts are scanned daily for malicious binaries in critical system paths. The malware signature database is checked hourly and automatically updated if new signatures are available. ClamAV is a part of our Bash-based configuration management and this assures all hosts have anti-virus tools running on them.

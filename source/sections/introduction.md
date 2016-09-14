@@ -6,7 +6,7 @@ TowerView Health provides secure and compliant cloud-based software. This hosted
 
 ## Software System
 
-Patients and caregivers utilize the TowerView Health dashboard to view medication adherence information reported by their electronic pillbox. TowerView Health makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of patient through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
+For each patient enrolled in TowerView Health's solution, the patient him or herself, as well as any caregivers and health professionals approved by the patient, can utilize the TowerView Health dashboard to view medication adherence information reported by their electronic pillbox. TowerView Health makes every effort to reduce the risk of unauthorized disclosure, access, and/or breach of patient through network (firewalls, dedicated IP spaces, etc) and server settings (encryption at rest and in transit, OSSEC throughout the Platform, etc).
 
 ## TowerView Health Organizational Concepts
 

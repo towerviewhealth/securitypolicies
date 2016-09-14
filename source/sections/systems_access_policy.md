@@ -81,15 +81,13 @@ Access to TowerView Health systems and application is limited for all users, inc
 
 ## Employee Workstation Use
 
-All workstations at TowerView Health are company owned, and all are laptop Apple products running Mac operating system.
-
 * Workstations may not be used to engage in any activity that is illegal or is in violation of organization’s policies.
 * Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or “X-rated”. Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual’s race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization’s system.
 * Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization’s best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
 * Solicitation of non-company business, or any use of organization’s information systems/applications for personal gain is prohibited. 
 * Transmitted messages may not contain material that criticizes organization, its providers, its employees, or others (do we need this?).
 * Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
-* Workstation hard drives will be encrypted using FileVault 2.0.
+* Workstation hard drives will be encrypted.
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
 * All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by TowerView Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://towerviewhealth.com/policy/) and have completed this training (https://training.towerviewhealth.com/). Please contact us if you have problems with this - privacy@towerviewhealth.com.*
 
@@ -130,12 +128,3 @@ TowerView Health does not use paper records for any sensitive information. Use o
 * Upon initial login, users must change any passwords that were automatically generated for them.
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
-
-## PaaS Customer Access to Systems
-
-TowerView Health grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to TowerView Health hosted systems.
-
-In the case of data migration, TowerView Health does, on a case by case basis, support customers in importing data. In these cases TowerView Health support SCP assuring all data is secured and encrypted in transit.
-
-In the case of an investigation, TowerView Health will assist customers, at TowerView Health's discretion, and law enforcement in forensics.
-

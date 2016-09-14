@@ -35,7 +35,7 @@ The current TowerView Health Privacy Officer is Hareesh Ganesan ([hareesh@towerv
 
 2. The Security Officer or designee maintains documentation of the training session materials and attendees for a minimum of six years. 
 
-3. The training session focuses on, but is not limited to, the following subjects defined in TowerView Health ‘s security policies and procedures:
+3. The training session focuses on, but is not limited to, the following subjects defined in TowerView Health's security policies and procedures:
 	1. HIPAA Privacy, Security, and Breach notification rules;
 	2. HITRUST Common Security Framework;
 	3. NIST Security Rules;
@@ -123,7 +123,7 @@ Although the Security Officer is responsible for implementing and overseeing all
 
 All workforce members report non-compliance of TowerView Health’s policies and procedures to the Security Officer or other individual as assigned by the Security Officer.  Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.
 
-1. The Security Officer promptly facilitates a thorough investigation of all reported violations of TowerView Health’s security policies and procedures.  The Security Officer may request the assistance from others.
+1. The Security Officer promptly facilitates a thorough investigation of all reported violations of TowerView Health’s security policies and procedures.  The Security Officer may request assistance from others.
 	1. Complete an audit trail/log to identify and verify the violation and sequence of events.
 	2. Interview any individual that may be aware of or involved in the incident.
 	3. All individuals are required to cooperate with the investigation process and provide factual information to those conducting the investigation.

@@ -28,6 +28,7 @@ The TowerView Health incident response process follows the process recommended b
 
 ### Identification Phase
 TODO
+
 1. Immediately upon observation TowerView Health members report suspected and known Precursors, Events, Indications, and Incidents in one of the following ways:
 	1. Direct report to management, the Security Officer, Privacy Officer, or other;
 	2. Email;
@@ -35,20 +36,20 @@ TODO
 	4. Online incident response form located [here](https://docs.google.com/a/towerviewhealth.com/forms/d/1Hn4di9Jdw5JT8vISMh6tVUnh94VpeHucell7Ca4fKTo/viewform);
 	5. Secure Chat.
 	6. Anonymously through workforce members desired channels.
-	7. The individual receiving the report facilitates completion of an [Incident Identification form](./incident.form.pdf) and notifies the Security Officer (if not already done).
-	8. The Security Officer determines if the issue is a Precursor, Event, Indication, or Incident.
-	9. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
-		1. Non-Technical Event (minor infringement): the Security Officer completes a SIR Form (see Appendix 2) and investigates the incident.
-		2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
-	10. If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.
-		1. If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.
-		2. Once the investigation is completed, progress to Phase V, Follow-up.
-		3. If the issue is a technical security incident, commence to Phase II: Containment.
-		4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
-		5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
-		6. The lead member of the SIRT team facilitates initiation of a Security Incident Report (SIR) Form (See Appendix 2 for sample format) or an Incident Survey Form (See Appendix 4).  The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
-	11. The Security Officer, Privacy Officer, or TowerView Health representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
-	12. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to TowerView Health and potentially external.
+7. The individual receiving the report facilitates completion of an [Incident Identification form](./incident.form.pdf) and notifies the Security Officer (if not already done).
+8. The Security Officer determines if the issue is a Precursor, Event, Indication, or Incident.
+9. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
+	1. Non-Technical Event (minor infringement): the Security Officer completes a SIR Form (see Appendix 2) and investigates the incident.
+	2. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
+10. If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.
+	1. If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.
+	2. Once the investigation is completed, progress to Phase V, Follow-up.
+	3. If the issue is a technical security incident, commence to Phase II: Containment.
+	4. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
+	5. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
+	6. The lead member of the SIRT team facilitates initiation of a Security Incident Report (SIR) Form (See Appendix 2 for sample format) or an Incident Survey Form (See Appendix 4).  The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
+11. The Security Officer, Privacy Officer, or TowerView Health representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
+12. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to TowerView Health and potentially external.
 
 ### Containment Phase (Technical)
 

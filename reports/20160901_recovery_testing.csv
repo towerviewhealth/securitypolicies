@@ -1,0 +1,19 @@
+Individual File Recovery Testing - PASS
+Each quarterly test includes a recovery of individual files. For this test, the backup administrators select several files at random (files that have not been modified since the most recent backup) to restore from the most recent backup. The checksum of the restored files are compared to the original, inability to restore all of the files or any difference in the checksum is noted as a failure. 
+
+
+File Name, Checksum on machine, Checksum after restore
+strict-units.less, e6cf1b5372e7e18bb74bc41a2be800d4674c8a4f, e6cf1b5372e7e18bb74bc41a2be800d4674c8a4f
+grid-framework.less, bad3c4341743ddde027b1467f562cc3ca262f4ff, bad3c4341743ddde027b1467f562cc3ca262f4ff
+page_white_width.png, 6c51612d8a1197c1e92264645b972055b23b9d36, 6c51612d8a1197c1e92264645b972055b23b9d36
+package.tgz, 7c37f9bbebccf78a1aca866e8178b2479adb8fc7, 7c37f9bbebccf78a1aca866e8178b2479adb8fc7
+isNative.js, 683dcad5a35a015c3c696fe7d2571b0968aeeec7, 683dcad5a35a015c3c696fe7d2571b0968aeeec7
+
+Full System Recovery Testing - PASS
+At least once per year, the backup administrators conduct a full system (bare metal) recovery of a backup target. A new Virtual Machine is created, restored fully from the most recent backup of the target, and then tested for completeness of the restore and functionality of the system after restoration. 
+
+Testing After Backup System Changes - PASS
+After any change, upgrade or update to any component of the backup system, including hardware, software or operating system of the backup server, a recovery test is performed. This test includes restoring from backups made prior to the change, as well as conducting a test backup and restore using the new configuration. 
+
+
+

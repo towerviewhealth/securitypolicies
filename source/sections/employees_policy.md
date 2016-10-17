@@ -14,7 +14,7 @@ TowerView Health is committed to ensuring all workforce members actively address
 
 * 164.308(a)(5)(i) - Security Awareness and Training
 
-## Employment Policies TODO
+## Employment Policies 
 
 1. All new workforce members, including contractors, are given training on security policies and procedures, including operations security, within 30 days of employment.
 	* Records of training are kept for all workforce members.

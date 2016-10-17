@@ -122,7 +122,7 @@ TowerView Health does not use paper records for any sensitive information. Use o
 
 * User IDs and passwords are used to control access to TowerView Health systems and may not be disclosed to anyone for any reason.
 * Users may not allow anyone, for any reason, to have access to any information system using another user’s unique user ID and password.
-* On all production systems and application in the TowerView Health environment, password configurations are set to require that passwords are a minimum of 8 character length, 90 day password expiration, account lockout after 5 invalid attempts, password history of last 4 passwords remembered, and account lockout after 15 minutes of inactivity.
+* On all production systems and application in the TowerView Health environment, password configurations are set to require that passwords are a minimum of 8 character length, 90 day password expiration, account lockout after 5 invalid attempts, password history of last 4 passwords remembered, and account lockout after 15 minutes of inactivity. Passwords must contain at least 1 uppercase, 1 lowercase, and 1 numeric value.
 * All system and application passwords are hashed by concatenating the user's password and a random 256-bit salt value, generated on a per-user basis, and then applying SHA-256 to the value to create a password hash. The password hash and the salt are then stored in the backend database and are used for password validation on future user authentication attempts.
 * Each information system automatically requires users to change passwords at a pre-determined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
 * Passwords are inactivated immediately upon an employee’s termination (refer to the termination procedures in this policy).
@@ -130,12 +130,3 @@ TowerView Health does not use paper records for any sensitive information. Use o
 * Upon initial login, users must change any passwords that were automatically generated for them.
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
-
-## PaaS Customer Access to Systems
-
-TowerView Health grants PaaS customer secure system access via VPN connections. This access is only to Customer-specific systems, no other systems in the environment. These connections are setup at customer deployment. These connections are secured and encrypted and the only method for customers to connect to TowerView Health hosted systems.
-
-In the case of data migration, TowerView Health does, on a case by case basis, support customers in importing data. In these cases TowerView Health support SCP assuring all data is secured and encrypted in transit.
-
-In the case of an investigation, TowerView Health will assist customers, at TowerView Health's discretion, and law enforcement in forensics.
-

@@ -27,7 +27,6 @@ The incident response process addresses:
 The TowerView Health incident response process follows the process recommended by SANS, an industry leader in security (www.sans.org). Process flows are a direct representation of the SANS process. Review Appendix 1 for a flowchart identifying each phase.
 
 ### Identification Phase
-TODO
 1. Immediately upon observation TowerView Health members report suspected and known Precursors, Events, Indications, and Incidents in one of the following ways:
 	1. Direct report to management, the Security Officer, Privacy Officer, or other;
 	2. Email;

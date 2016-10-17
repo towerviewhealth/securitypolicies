@@ -34,8 +34,8 @@ Access to TowerView Health systems and application is limited for all users, inc
 * Requests for access to TowerView Health Platform systems and applications is made formally to the Lead Engineer, Privacy Officer, or Security Officer.
 * Access is not granted until receipt, review, and approval by the TowerView Health Security Officer;
 * The request for access is retained for future reference.
-* All access to TowerView Health systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commensurate with job functions. The form used to conduct account review is [here](https://docs.google.com/a/towerviewhealth.com/forms/d/1oeejMta4XLiUsdH2gTKQ-glec6DBiwPJoY9F60HmPWk/viewform).
-* Any TowerView Health workforce member can request change of access using this [form](https://docs.google.com/a/towerviewhealth.com/forms/d/1ySICzCyEEdNqxHHErjlJqREBijwxs9z72L-rWXrxkm0/viewform).
+* All access to TowerView Health systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commensurate with job functions. 
+* Any TowerView Health workforce member can request change of access from the Security Officer.
 * Access to systems is controlled using centralized user management and authentication. All authentication requests utilize two factor authentication using mobile devices as the second factor.
 * Temporary accounts are not used unless absolutely necessary for business purposes.
 	* Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
@@ -81,21 +81,19 @@ Access to TowerView Health systems and application is limited for all users, inc
 
 ## Employee Workstation Use
 
-All workstations at TowerView Health are company owned, and all are laptop Apple products running Mac operating system.
-
 * Workstations may not be used to engage in any activity that is illegal or is in violation of organization’s policies.
 * Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or “X-rated”. Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual’s race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization’s system.
 * Information systems/applications also may not be used for any other purpose that is illegal, unethical, or against company policies or contrary to organization’s best interests. Messages containing information related to a lawsuit or investigation may not be sent without prior approval.
 * Solicitation of non-company business, or any use of organization’s information systems/applications for personal gain is prohibited. 
-* Transmitted messages may not contain material that criticizes organization, its providers, its employees, or others.
+* Transmitted messages may not contain material that criticizes organization, its providers, its employees, or others (do we need this?).
 * Users may not misrepresent, obscure, suppress, or replace another user’s identity in transmitted or stored messages.
-* Workstation hard drives will be encrypted using FileVault 2.0.
+* Workstation hard drives will be encrypted.
 * All workstations have firewalls enabled to prevent unauthorized access unless explicitly granted.
-* All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by TowerView Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies (https://towerviewhealth.com/policy/) and have completed this training (https://training.towerviewhealth.com/). Please contact us if you have problems with this - privacy@towerviewhealth.com.*
+* All workstations are to have the following messages added to the lock screen and login screen: *This computer is owned by TowerView Health, Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, the TowerView Health security policiesand have completed IT training. Please contact us if you have problems with this - privacy@towerviewhealth.com.*
 
 ## Wireless Access Use
 
-* TowerView Health production systems are not accessible directly over wireless channels.
+* TowerView Health production systems are not accessible directly over wireless channels (what counts as a production system? Is it any build server that we don't want to expose to wireless intrusion? Or is it maybe a powerful desktop running CAD software that we might want to remote access if we're off-site?).
 * Wireless access disabled on all production systems.
 * When access production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
 * Wireless networks managed within TowerView Health non-production facilities (offices, etc) are secured with the following configurations:

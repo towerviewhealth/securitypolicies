@@ -11,8 +11,6 @@ It is the policy of TowerView Health to safeguard the confidentiality, integrity
 * Improper alteration or destruction of ePHI;
 * Out of date software and/or software known to have vulnerabilities.
 
-This policy applies to all TowerView Health Add-on systems, including BaaS, that store, transmit, or process ePHI. This policy, and associated procedures, do not apply to PaaS Customers that do not choose TowerView Health Logging Service. 
-
 ## Applicable Standards from the HITRUST Common Security Framework
 
 * 0.a Information Security Management Program
@@ -67,14 +65,13 @@ This policy applies to all TowerView Health Add-on systems, including BaaS, that
 	* Testing may be carried out internally or provided through an external third-party vendor. Whenever possible, a third party auditing vendor should not be providing the organization IT oversight services (e.g., vendors providing IT services should not be auditing their own services - separation of duties).
 	* Testing shall be done on a routine basis, currently monthly.
 14. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
-	* In the case of PaaS Customers, updates to Application and Database versions are the responsibility of Customers, though TowerView Health will, at it's own discretion, notify and recommend updates to customer systems.
 
 ## Audit Requests
 
 1. A request may be made for an audit for a specific cause. The request may come from a variety of sources including, but not limited to, Privacy Officer, Security Officer, Customer, Partner, or an Application owner or application user.
 2. A request for an audit for specific cause must include time frame, frequency, and nature of the request. The request must be reviewed and approved by TowerView Health’s Privacy or Security Officer.
 3. A request for an audit must be approved by TowerView Health’s Privacy Officer and/or Security Officer before proceeding. Under no circumstances shall detailed audit information be shared with parties without proper permissions and access to see such data.
-	* Should the audit disclose that a workforce member has accessed ePHI inappropriately, the minimum necessary/least privileged information shall be shared with TowerView Health’s Security Officer to determine appropriate sanction/ corrective disciplinary action.
+	* Should the audit disclose that a workforce member has accessed ePHI inappropriately, the minimum necessary/least privileged information shall be shared with TowerView Health’s Security Officer to determine appropriate sanction/corrective disciplinary action.
 	* Only de-identified information shall be shared with Customer or Partner regarding the results of the investigative audit process. This information will be communicated to the appropriate personnel by TowerView Health’s Privacy Officer or designee. Prior to communicating with customers and partners regarding an audit, it is recommended that TowerView Health consider seeking risk management and/or legal counsel.
 
 ## Review and Reporting of Audit Findings
@@ -85,7 +82,7 @@ This policy applies to all TowerView Health Add-on systems, including BaaS, that
 	* Significant findings shall be reported immediately in a written format. TowerView Health’s security incident response form may be utilized to report a single event.
 	* Routine findings shall be reported to the sponsoring leadership structure in a written report format.
 3. Reports of audit results shall be limited to internal use on a minimum necessary/need-to-know basis. Audit results shall not be disclosed externally without administrative and/or legal counsel approval.
-4. Security audits constitute an internal, confidential monitoring practice that may be included in TowerView Health’s performance improvement activities and reporting. Care shall be taken to ensure that the results of the audits are disclosed to administrative level oversight structures only and that information which may further expose organizational risk is shared with extreme caution. Generic security audit information may be included in organizational reports (individually-identifiable e PHI shall not be included in the reports).
+4. Security audits constitute an internal, confidential monitoring practice that may be included in TowerView Health’s performance improvement activities and reporting. Care shall be taken to ensure that the results of the audits are disclosed to administrative level oversight structures only and that information which may further expose organizational risk is shared with extreme caution. Generic security audit information may be included in organizational reports (individually-identifiable ePHI shall not be included in the reports).
 5. Whenever indicated through evaluation and reporting, appropriate corrective actions must be undertaken. These actions shall be documented and shared with the responsible workforce members, Customers, and/or Partners.
 
 ## Auditing Customer and Partner Activity
@@ -99,12 +96,11 @@ This policy applies to all TowerView Health Add-on systems, including BaaS, that
 4. Audit logs shall be protected from unauthorized access or modification, so the information they contain will be made available only if needed to evaluate a security incident or for routine audit activities as outlined in this policy.
 5. All audit logs are encrypted in transit and at rest to control access to the content of the logs. 
 6. Audit logs shall be stored on a separate system to minimize the impact auditing may have on the privacy system and to prevent access to audit trails by those with system administrator privileges. This is done to apply the security principle of “separation of duties” to protect audit trails from hackers.
-7. For PaaS Customers choosing to use TowerView Health logging services, log data will be separated from the log data of other TowerView Health Customers.
 
 ## Workforce Training, Education, Awareness and Responsibilities
 
 1. TowerView Health workforce members are provided training, education, and awareness on safeguarding the privacy and security of business and ePHI. TowerView Health’s commitment to auditing access and activity of the information applications, systems, and networks is communicated through new employee orientation, ongoing training opportunities and events, and applicable policies. TowerView Health workforce members are made aware of responsibilities with regard to privacy and security of information as well as applicable sanctions/corrective disciplinary actions should the auditing process detect a workforce member’s failure to comply with organizational policies.
-2. TowerView Health Customers are provided with necessary information to understand TowerView Health auditing capabilities, and PaaS Customers can choose the level of logging and auditing that TowerView Health will implement on their behalf.
+2. TowerView Health Customers are provided with necessary information to understand TowerView Health auditing capabilities.
 
 ## External Audits of Information Access and Activity
 
@@ -123,7 +119,6 @@ A. Organizational history and experience.
 B. Available storage space.
 1. Reports summarizing audit activities shall be retained for a period of six years.
 3. Log data is currently retained and readily accessible for a 1-month period. Beyond that, log data is available via cold backup. 
-4. For Paas Customers, they choose the length of backup retention and availability that TowerView Health will implement and enforce.
 
 ## Potential Trigger Events
 

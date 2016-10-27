@@ -55,7 +55,7 @@ Production Systems that create, receive, store, or transmit customer data (herea
 
 ### Transmission Security
 
-* All data transmission is encrypted end to end. Encryption is not terminated at the network end point, and is carried through to the application.
+* All data transmission is encrypted using TLS.
 * Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
 * Transmission encryption keys use a minimum of 4096-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength.
 * Transmission encryption keys are limited to use for one year and then must be regenerated.

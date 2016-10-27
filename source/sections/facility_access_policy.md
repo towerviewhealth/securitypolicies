@@ -27,6 +27,7 @@ Of note, TowerView Health does not have ready access to ePHI, it provides cloud-
 5. Electronic and physical media containing covered information is securely destroyed (or the information securely removed) prior to disposal.
 6. The organization securely disposes media with sensitive information.
 7. Physical access is restricted using smart locks that track all access.
+	* Workstations must be locked when unattended.
 	* Restricted areas and facilities are locked and when unattended (where feasible).
 	* Only authorized workforce members receive access to restricted areas (as determined by the Security Officer).
 	* Access and keys are revoked upon termination of workforce members.
@@ -40,3 +41,4 @@ Of note, TowerView Health does not have ready access to ePHI, it provides cloud-
 	* Workstations may only be accessed and utilized by authorized workforce members to complete assigned job/contract responsibilities.
 	* All workforce members are required to monitor workstations and report unauthorized users and/or unauthorized attempts to access systems/applications as per the System Access Policy.
 	* All workstations purchased by TowerView Health are the property of TowerView Health and are distributed to users by the company.
+	* Workstation locaton will be reviewed every 90 days to prevent location use in areas more vulnerable to unauthorized use, theft, or data compromise.

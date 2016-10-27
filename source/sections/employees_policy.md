@@ -31,5 +31,10 @@ TowerView Health is committed to ensuring all workforce members actively address
 9. Employees may only use TowerView Health-purchased and -owned workstations for accessing production systems with access to ePHI data.
 	* Any workstations used to access production systems must be configured as prescribed by the [Employee Workstation Use](#employee-workstation-use) section of the Systems Access Policy.
 	* Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
-10. Access to internal TowerView Health systems can be requested.. All requests for access much be granted to the TowerView Health Security Officer.
+10. Access to internal TowerView Health systems can be requested. All requests for access much be granted to the TowerView Health Security Officer.
 11. Request for modifications of access for any TowerView Health employee can be made to the TowerView Health Security Officer.
+
+## Consequences For Violation of Security Policies
+
+1. Failure to comply with stated security policy will result in disciplinary action up to and including termination. The type of discipline applied shall vary depending on the severity of the violation, whether the violation was intentional or unintentional, whether the violation indicates a pattern or practice of improper access, use or disclosure of electronic protected health information and similar factors.
+2. Workforce members should be aware that violations of a severe nature may result in notification to law enforcement officials.

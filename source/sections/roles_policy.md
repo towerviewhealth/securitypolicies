@@ -131,11 +131,12 @@ All workforce members report non-compliance of TowerView Health’s policies and
 	5. The investigators thoroughly documents the investigation as the investigation occurs.
 
 2. Violation of any security policy or procedure by workforce members may result in corrective disciplinary action, up to and including termination of employment.  Violation of this policy and procedures by others, including business associates, customers, and partners may result in termination of the relationship and/or associated privileges.  Violation may also result in civil and criminal penalties as determined by federal and state laws and regulations. 
-  8. A violation resulting in a breach of confidentiality (i.e. release of PHI to an unauthorized individual), change of the integrity of any ePHI, or inability to access any ePHI by other users, requires immediate termination of the workforce member from TowerView Health.
 
-3. The Security Officer facilitates taking appropriate steps to prevent recurrence of the violation (when possible and feasible).
+3. A violation resulting in a breach of confidentiality (i.e. release of PHI to an unauthorized individual), change of the integrity of any ePHI, or inability to access any ePHI by other users, requires immediate termination of the workforce member from TowerView Health.
 
-4. In the case of an insider threat, the Security Officer and Privacy Officer are to setup a team to investigate and mitigate the risk of insider malicious activity. TowerView Health workforce members are encouraged to come forward with information about insider threats, and can do so anonymously. 
+4. The Security Officer facilitates taking appropriate steps to prevent recurrence of the violation (when possible and feasible).
 
-5. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent reoccurrence for a minimum of six years after the conclusion of the investigation. 
+5. In the case of an insider threat, the Security Officer and Privacy Officer are to setup a team to investigate and mitigate the risk of insider malicious activity. TowerView Health workforce members are encouraged to come forward with information about insider threats, and can do so anonymously. 
+
+6. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent reoccurrence for a minimum of six years after the conclusion of the investigation. 
 

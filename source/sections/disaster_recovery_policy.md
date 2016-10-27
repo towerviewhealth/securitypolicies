@@ -56,7 +56,7 @@ The following order of succession to ensure that decision-making authority for t
 The following teams have been developed and trained to respond to a contingency event affecting the IT system. 
 
 1. The **Engineering Team** is responsible for recovery of the TowerView Health hosted environment, network devices, and all servers. Members of the team include personnel who are also responsible for the daily operations and maintenance of TowerView Health. The team leader is the COO and directs the Dev Ops Team. 
-2. The **Engineering Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the COO and directs the Web Services Team.
+2. The **Engineering Team** is responsible for assuring all application servers, web services, and platform add-ons are working. It is also responsible for testing redeployments and assessing damage to the environment. The team leader is the COO and directs the Engineering Team.
 
 ## Testing and Maintenance
 
@@ -83,12 +83,12 @@ This phase addresses the initial actions taken to detect and assess damage infli
 The notification sequence is listed below:
 
 * The first responder is to notify the COO. All known information must be relayed to the COO.
-* The Lead Engineer is to contact the Web Services Team and inform them of the event. The COO is to to begin assessment procedures.
+* The Lead Engineer is to contact the Engineering Team and inform them of the event. The COO is to to begin assessment procedures.
 * The COO is to notify team members and direct them to complete the assessment procedures outlined below to determine the extent of damage and estimated recovery time. If damage assessment cannot be performed locally because of unsafe conditions, the COO is to follow the steps below.
 	* Damage Assessment Procedures:
 	* The COO and Lead Engineer are to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
 	* Alternate Assessment Procedures:
-	* Upon notification from the COO, the Lead Engineer is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams. 
+	* Upon notification from the COO, the Lead Engineer is to follow the procedures for damage assessment with Engineering Teams. 
 * The TowerView Health Contingency Plan is to be activated if one or more of the following criteria are met:
 	* TowerView Health will be unavailable for more than 48 hours.
 	* Hosting facility is damaged and will be unavailable for more than 24 hours.

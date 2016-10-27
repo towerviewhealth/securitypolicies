@@ -93,7 +93,7 @@ Access to TowerView Health systems and application is limited for all users, inc
 
 ## Wireless Access Use
 
-* TowerView Health production systems are not accessible directly over wireless channels (what counts as a production system? Is it any build server that we don't want to expose to wireless intrusion? Or is it maybe a powerful desktop running CAD software that we might want to remote access if we're off-site?).
+* TowerView Health production systems are not accessible directly over wireless channels.
 * Wireless access disabled on all production systems.
 * When access production systems via remote wireless connections, the same system access policies and procedures apply to wireless as all other connections, including wired.
 * Wireless networks managed within TowerView Health non-production facilities (offices, etc) are secured with the following configurations:
@@ -128,3 +128,13 @@ TowerView Health does not use paper records for any sensitive information. Use o
 * Upon initial login, users must change any passwords that were automatically generated for them.
 * All passwords used in configuration scripts are secured and encrypted.
 * If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
+
+## Roles Based Access Controls
+
+TowerView Health uses roles-based access controls to mediate user access to ePHI data through the TowerView Health system. Roles are defined below:
+
+* Care coordinators: Access to adherence dashboard for authorized patients
+* Pharmacist: Access to medication schedule for authorized patients
+* Rollout Admin: Ability to assign users to a care coordinator within a given rollout 
+* TVH Admin: Privileges to assign rollout administrator access for multiple rollouts
+* System Admin: Access to production database

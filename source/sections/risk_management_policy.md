@@ -24,6 +24,9 @@ This policy establishes the scope, objectives, and procedures of TowerView Healt
 		* These changes do not include routine updates to existing systems, deployments of new systems created based on previously configured systems, deployments of new Customers, or new code developed for operations and management of the TowerView Health Platform.
 	3. While making changes to TowerView Health physical equipment and facilities that introduce new, untested configurations.
 	4. TowerView Health performs periodic technical and non-technical assessments of the security rule requirements as well as in response to environmental or operational changes affecting the security of ePHI.
+	5. Any doubling of firm size
+	6. Any major software update to core databases or server technologies used.
+	7. Any large customer partnerships consituting a 5x increase in customer volume.
 3. TowerView Health implements security measures sufficient to reduce risks and vulnerabilities to a reasonable and appropriate level to:
 	1. Ensure the confidentiality, integrity, and availability of all ePHI TowerView Health receives, maintains, processes, and/or transmits for its Customers;
 	2. Protect against any reasonably anticipated threats or hazards to the security or integrity of Customer ePHI;

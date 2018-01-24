@@ -24,6 +24,5 @@ TowerView Health implements policies and procedures to maintain compliance and i
 	1. Version history of all TowerView Health policies is done via Github.
 	2. Backup storage of all policies is done with Box.
 6. The policies and information security policies are reviewed and audited annually. Issues that come up as part of this process are reviewed by TowerView Health management to assure all risks and potential gaps are mitigated and/or fully addressed. The policy review form can be found in the internal documents.
-7. TowerView Health utilizes the HITRUST MyCSF framework to track compliance with the HITRUST CSF on an annual basis. TowerView Health also tracks compliance with HIPAA.
 
 Additional documentation related to maintenance of policies is outlined in the Security officers responsibilities.

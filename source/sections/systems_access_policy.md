@@ -36,6 +36,7 @@ Access to TowerView Health systems and application is limited for all users, inc
 * The request for access is retained for future reference.
 * All access to TowerView Health systems and services are reviewed and updated on an bi-annual basis to assure proper authorizations are in place commensurate with job functions. 
 * Any TowerView Health workforce member can request change of access from the Security Officer.
+* On change of status, HR must notify Security Officer of change on date of change.
 * Access to systems is controlled using centralized user management and authentication. All authentication requests utilize two factor authentication using mobile devices as the second factor.
 * Temporary accounts are not used unless absolutely necessary for business purposes.
 	* Accounts are reviewed every 90 days to assure temporary accounts are not left unnecessarily.
@@ -105,6 +106,7 @@ Access to TowerView Health systems and application is limited for all users, inc
 ## Employee Termination Procedures
 
 * The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the “Termination Checklist".
+* Notification of termination must occur within 1 day of termination.
 * The Human Resources Department, users, and supervisors are required to notify the IS Help Desk to terminate a user’s access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
 	* The user has been using their access rights inappropriately;
 	* A user’s password has been compromised (a new password may be provided to the user if the user is not identified as the individual compromising the original password);
@@ -138,3 +140,5 @@ TowerView Health uses roles-based access controls to mediate user access to ePHI
 * Rollout Admin: Ability to assign users to a care coordinator within a given rollout 
 * TVH Admin: Privileges to assign rollout administrator access for multiple rollouts
 * System Admin: Access to production database
+
+Roles are assigned on the principle of least privlege.

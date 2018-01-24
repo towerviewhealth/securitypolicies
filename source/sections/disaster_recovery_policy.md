@@ -107,11 +107,11 @@ The following procedures are for recovering the TowerView Health infrastructure 
 
 Recovery Goal: The goal is to rebuild TowerView Health infrastructure to a production state.
 
-The tasks outlines below are not sequential and some can be run in parallel.
+The tasks outlined below are not sequential and some can be run in parallel.
 
 1. Contact Partners and Customers affected
 2. Assess damage to the environment
-3. Begin replication of new environment using automated and tested scripts, currently Bash.
+3. Begin replication of new environment using automated and tested tools (e.g., aws, kops, kubernetes).
 4. Test new environment using pre-written tests
 5. Test logging, security, and alerting functionality
 6. Assure systems are appropriately patched and up to date.
@@ -123,7 +123,7 @@ The tasks outlines below are not sequential and some can be run in parallel.
 This section discusses activities necessary for restoring TowerView Health operations at the original or new site. The goal is to restore full operations within 24 hours of a disaster or outage. When the hosted data center at the original or new site has been restored, TowerView Health operations at the alternate site may be transitioned back. The goal is to provide a seamless transition of operations from the alternate site to the computer center.
 
 1. Original or New Site Restoration
-	* Begin replication of new environment using automated and tested scripts, currently Bash.
+	* Begin replication of new environment using automated and tested scripts, currently tools (e.g., aws, kops, kubernetes).
 	* Test new environment using pre-written tests.
 	* Test logging, security, and alerting functionality.
 	* Deploy environment to production
@@ -132,4 +132,4 @@ This section discusses activities necessary for restoring TowerView Health opera
 
 2. Plan Deactivation
 
-If the TowerView Health environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the TowerView Health Media Disposal Policy. 
+If the TowerView Health environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the TowerView Health Media Disposal Policy.
